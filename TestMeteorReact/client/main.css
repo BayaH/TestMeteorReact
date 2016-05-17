@@ -1,1 +1,31 @@
 /* CSS declarations go here */
+body{
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mainImage{
+  background-image: url(../img/pates.jpg);
+  height:220px;
+}
+
+.leftMenu{
+  width: 21% !important;
+  background-color: #DEDEDE !important;
+  float:left;
+  font-family: "roboto","helvetica neue",helvetica,arial,sans-serif;
+  font-weight: 500;
+  line-height: 2em;
+}
+
+.createOrder{
+  background-color: #ECECEC;
+  min-height:256px;
+}
+
+.OrderMenuItem{
+  color: #929292 !important;
+  font-size: 1.3em !important;
+  margin-left: 30px;
+}
